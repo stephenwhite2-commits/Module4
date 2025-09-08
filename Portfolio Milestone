@@ -1,4 +1,4 @@
-class ItemToPurchase
+class ItemToPurchase:
   def __init__(self):
     # simple name for the item
     self.item_name: str = "none"
@@ -15,7 +15,7 @@ class ItemToPurchase
     # summarize
     return f"{self.item_name} {self.item_quantity} @ ${self.item_price:.2f}"
 
-if __name__ == "__main__"
+if __name__ == "__main__":
   item1 = ItemToPurchase()
   # details of item
   item1.item_name = "Soda"
@@ -24,6 +24,4 @@ if __name__ == "__main__"
   # print cost from item
   print(f"Here is the cost, printed by the item itself:")
   item1.print_item_cost()
-  # Or, print the item and a summary
-  print(f"\nHere is the item's summary, from its __str__ method:")
-  print(item1)
+
