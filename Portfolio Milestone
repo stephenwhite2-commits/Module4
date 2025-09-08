@@ -37,3 +37,8 @@ if __name__ == "__main__":
   item1.print_item_cost()
   item2.print_item_cost()
 
+  # calculate total and print
+  total_item1_cost = item1.item_price * item1.item_quantity
+  total_item2_cost = item2.item.price * item2.item_quantity
+  all_total_cost = total_item1_cost + total_item2_cost
+  print(f"\nTotal: ${all_total_cost:.2f}")
