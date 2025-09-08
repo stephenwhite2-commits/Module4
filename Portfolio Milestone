@@ -22,7 +22,7 @@ if __name__ == "__main__":
   # details of item
   item1.item_name = input("Enter the item name:\n")
   item1.item_price = float(input("Enter the item price:\n"))
-  item1.item_quantity = int(input("Enter the intem quantity:\n"))
+  item1.item_quantity = int(input("Enter the item quantity:\n"))
 
   #Prompt for and create second item
   print("Item 2")
@@ -30,7 +30,7 @@ if __name__ == "__main__":
   # details of item
   item2.item_name = input("Enter the item name:\n")
   item2.item_price = float(input("Enter the item price:\n"))
-  item2.item_quantity = int(input("Enter the intem quantity:\n"))
+  item2.item_quantity = int(input("Enter the item quantity:\n"))
 
   # print cost of each item
   print(f"Total cost per item:")
