@@ -17,7 +17,7 @@ class ItemToPurchase:
 
 if __name__ == "__main__":
   # Prompt for and create the first item
-print "Item 1"
+  print("Item 1")
   item1 = ItemToPurchase()
   # details of item
   item1.item_name = input("Enter the item name:\n")
@@ -25,7 +25,7 @@ print "Item 1"
   item1.item_quantity = int(input("Enter the intem quantity:\n"))
 
   #Prompt for and create second item
-print "Item 2"
+  print("Item 2")
   item1 = ItemToPurchase()
   # details of item
   item2.item_name = input("Enter the item name:\n")
