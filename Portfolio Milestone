@@ -1,0 +1,16 @@
+class ItemToPurchase
+  def __init__(self):
+  #simple name for the item
+  self.item_name: str = "none"
+  #cost of a single item, setting to 0 for now
+  self.item_price: float = 0.0
+  #number you want to buy, setting to 0 for now
+  self.item_quantity: int = 0
+  def print_item_cost(self) -> None:
+  #Calculate total for all items
+  total_cost = self.item_price * self.item_quantity
+  #print all together
+  print(f"{self.item_name} {self.item_quantity} @ ${self.item_price:.2f} = ${total_cost:.2f}")
+  def __str__(self) -> str:
+  #summarize
+  return f"{self.item_name} {self.item_quantity} @ ${self.item_price:.2f}"
